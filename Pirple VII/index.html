@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirple: Recipe</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style media="screen">
+      ol{
+        color: white;
+      }
+      @media screen and (max-width: 400px) {
+        *{
+          padding: 5px;
+          font-family: fantasy;
+          font-size: 11px;
+        }
+        ol li:first-child {
+          background-color: #ff5000;
+        }
+      }
+      @media screen and (max-width: 750px) and (min-width: 401px) {
+        * {
+          padding: 5px;
+          font-family: cursive;
+          font-size: 16px;
+        }
+        ol li:first-child+li {
+          background-color: #ff5000;
+        }
+      }
+      @media screen and (min-width: 750px) {
+        h1, p {
+          text-align: center;
+        }
+        h1 {
+          color: #ff5050;
+        }
+        ol li:last-child {
+          background-color: #ff5000;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Main Page</h1>
+    <!--The Header tag which is header for a infomation-->
+    <p class="whitetext">'index' named file is considered as first or high priority page which load first upon entering domain name.</p>
+    <section class="circlebuttetin">
+      <h4>Other Pages Link</h4>
+      <ul  style="display: table;">
+        <li><a href="recipe i.html">Recipe I</a></li>
+        <li><a href="recipe ii.html">Recipe II</a></li>
+        <li><a href="recipe iii.html">Recipe III</a></li>
+        <li><a href="recipe iv.html">Recipe IV</a></li>
+      </ul>
+    </section>
+    <section>
+      <p class="whitetext">
+        Source From : <a href="https://www.w3schools.com" style="background-color: #ff0;">https://www.w3schools.com</a>.
+      </p>
+    </section>
+    <div>
+      <ol style="display: table;">
+        <li>Media Screen smaller than 400px</li>
+        <li>Media Screen between 401px and 750px</li>
+        <li>Media Screen larger than 750px</li>
+      </ol>
+    </div>
+  </body>
+</html>
