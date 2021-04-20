@@ -1,0 +1,500 @@
+body {
+  margin: 0
+}
+/*<!--DESIGNED AND TESTED IN MOZILLA FIREFOX-->*/
+a {
+  text-decoration: none;
+  color: unset;
+}
+header {
+  padding-top: 7px;
+  padding-bottom: 10px;
+  border-top: 3px solid #f48024;
+  background-color: #fafafb;
+  color: #0c0d0e;
+  height: auto;
+  width: 100%;
+  padding-left: 5px;
+  position: fixed;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 2px 6px rgba(0,0,0,0.06),0 3px 8px rgba(0,0,0,0.09);
+}
+.headerline > div {
+  display: inline-block;
+  cursor: pointer;
+}
+.menubar div {
+  width: 25px;
+  height: 2px;
+  margin: 6px 10px;
+  background-color: #333;
+}
+.olist {
+  vertical-align: middle;
+}
+.logo {
+  display: inline-block;
+  font-size: 28px;
+  padding: 0 15px;
+  font-family: impact;
+}
+.headerline ol {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0px;
+  margin: 0 12px;
+}
+.headerline ol li {
+  cursor: pointer;
+  padding: 4px 15px;
+  border-radius: 15px;
+  color: #0c0d0e;
+}
+.headerline ol li:hover {
+  background-color: #c8ccd0;
+}
+.headerline ol li:first-child {
+  color: white;
+  background-color: #f48024;
+}
+.headerline {
+  display: flex;
+  justify-content: space-around;
+}
+.search {
+  display: inline;
+  border: 1px solid #bbc0c4;
+  padding: 0;
+  margin: 0;
+  //width: 40%
+}
+.search input {
+  font-size: 16px;
+  border: none;
+}
+.btns {
+  padding-top: 5px;
+}
+.btns a {
+  padding: 5px;
+  color: white;
+  border: 1px solid #7aa7c7;
+  border-radius: 5px;
+  background-color: #0095ff;
+}
+.btns a:first-child {
+  color: black;
+  background-color: #e1ecf4;
+}
+.btns a:hover{
+  color: white;
+  background-color: #0064bd;
+}
+.first-banner {
+  padding: 25px;
+  text-align: center;
+  background-color: #ffcf10;
+}
+.first-banner input {
+  font-size: 14px;
+  padding: 10px 15px;
+  color: #f48024;
+  border: 2px solid #f48024;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.first-banner input:last-child {
+  color: white;
+  background-color: #f48024;
+}
+.first-banner input:hover {
+  color: gray;
+  background-color: revert;
+}
+.namecard {
+  text-align: center;
+  padding: 20px;
+  margin: 25px 5px;
+  background-color: #f7f6f9;
+}
+.namecard .onebar {
+  text-align: center;
+  width: 60px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: #f48024;
+}
+.namecard p {
+  display: inline-block;
+  text-align: center;
+  width: 35%;
+}
+/*.namecard a {*/
+section a {
+  color: #f48024;
+}
+/*  CARD SHADOW
+.bshadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 2px 6px rgba(0,0,0,0.06),0 3px 8px rgba(0,0,0,0.09);
+}
+.bshadow :hover {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.09),0 3px 8px rgba(0,0,0,0.09),0 4px 13px rgba(0,0,0,0.13);
+}
+*/
+.cards {
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  padding: 20px;
+  margin: 25px;
+  justify-content: space-around;
+}
+.cards div {
+  display: block;
+  margin: 15px;
+  padding: 25px 15px;
+  border-radius: 6px;
+  width: 30%;
+  //box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 2px 6px rgba(0,0,0,0.06),0 3px 8px rgba(0,0,0,0.09);
+}
+.cards div:hover {
+  //box-shadow: 0 1px 4px rgba(0,0,0,0.09),0 3px 8px rgba(0,0,0,0.09),0 4px 13px rgba(0,0,0,0.13);
+}
+.cards span {
+  font-size: 100px;
+  display: inline-block;
+}
+.cards label {
+  margin: 10px;
+  font-weight: bold;
+  display: block;
+}
+.cards input {
+  margin: 10px;
+  padding: 8px 15px;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  background-color: #2b2d6e;
+}
+.cards input:hover {
+  color: #2b2d6e;
+  background-color: unset;
+  border:2px solid #2b2d6e;
+}
+.first-banner .title span:first-child{
+  font-family: 'Roboto Slab Bold',serif;
+  font-weight: 700;
+  display: block;
+  font-size: 4.23em;
+  padding: 35px;
+}
+.first-banner .title span:last-child {
+  display: inline-block;
+  padding: 15px;
+  margin: 14px;
+  color: white;
+  font-size: 25px;
+  width: 40%;
+}
+.sidebyside {
+  display: unset;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 15px 0px;
+}
+.sidebyside span:first-child {
+  font-size: 50px;
+}
+.sidebyside span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.sidebyside > div {
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  margin: 15px 10px;
+  padding: 15px 10px;
+  border-radius: 8px;
+  background-color: white;
+}
+.second-banner {
+  color: white;
+  text-align: center;
+  background-color: #2b2d6e;
+  padding: 35px 15px;
+}
+.second-banner p {
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+}
+.btnmore {
+  color: white;
+  padding: 15px 35px;
+  background-color: #f48024;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.s-card, .t-card {
+  margin: 30px;
+  height: auto;
+  color: #000;
+  background-color: #fff;
+  width: 28%;
+  padding: 15px;
+  border-radius: 5px;
+}
+.s-card label, .t-card label {
+  color: #27348b;
+  font-weight: 700;
+  font-size: 22px;
+}
+.s-card ul, .t-card ul {
+  list-style: '\2714  ';
+}
+.s-card ul li, .t-card ul li {
+  padding: 5px;
+}
+.s-card input, .t-card input {
+  color: #1e3c52;
+  font-family: sans-serif;
+  font-weight: 700;
+  background-color: #eff0f1;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  font-style: bold;
+  padding: 15px;
+  border-radius: 5px;
+}
+.t-card {
+  color: white;
+  background-color: unset;
+  border: 1px solid white;
+}
+.t-card label {
+  color: white;
+}
+.t-card input {
+  background-color: #ffb500;
+}
+.s-card input:hover {
+  background-color: #d6d9dc;
+}
+.t-card hr, .s-card hr {
+  margin: 25px 0;
+}
+.threecard {
+  display: flex;
+}
+.texts {
+  justify-content: space-around;
+}
+.texts div  {
+  text-align: center;
+  padding: 15px;
+  color: #bbc0c4;
+}
+.texts div:hover  {
+  color: #fff;
+}
+.third-banner {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7f6f9;
+  padding: 155px 25px;
+}
+.third-banner div {
+  width: 40%;
+}
+.third-banner input {
+  background-color: #f48024;
+  font-family: sans-serif;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-style: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+.third-banner label {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 26px;
+}
+.four-banner {
+  padding: 25px;
+  text-align: center;
+  padding-top: 100px;
+}
+.four-banner label {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 25px;
+}
+.four-banner div {
+  display: flex;
+  justify-content: center;
+}
+.five-banner div {
+  justify-content: space-around;
+}
+.four-banner div p {
+  text-align: left;
+  padding: 10px;
+  width: 30%;
+  margin: 10px;
+}
+.five-banner {
+  padding-top: 100px;
+}
+.five-banner .cards div{
+  width: 25%;
+  padding: 20px;
+
+}
+.six-banner {
+  background-color: #e1ecf4;
+  padding: 25px;
+  padding-top: 100px;
+}
+.six-banner .cards p {
+  vertical-align: middle;
+  text-align: left;
+  margin: 8px;
+  padding: 15px 15px;
+  width: 100%;
+}
+.six-banner .cards p:last-child {
+  width: 10%;
+}
+/*  CARD SHADOW */
+.bshadow {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06),0 2px 6px rgba(0,0,0,0.06),0 3px 8px rgba(0,0,0,0.09);
+}
+.bshadow:hover {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.09),0 3px 8px rgba(0,0,0,0.09),0 4px 13px rgba(0,0,0,0.13);
+}
+/*ORANGE BUTTON*/
+.btnorange {
+  margin: 10px;
+  padding: 10px 18px;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  background-color: #f48024;
+}
+.btnorange:hover {
+  color: #f48024;
+  background-color: unset;
+  border:2px solid #f48024;
+}
+.footer {
+  padding: 15px;
+  color: #6a737c;
+  background-color: #242729;
+  display: flex;
+}
+.footer li:hover, .footer label:hover {
+  color: #f2f2f2;
+}
+.footer label {
+  color: #bbc0c4;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  font-size: 14px;
+  padding: 2px;
+}
+@media screen and (max-width: 700px) {
+  .headerline div {
+    width: auto;
+    padding: 0;
+    margin: 0;
+  }
+  header a {
+    font-size: 16px;
+    width: auto;
+  }
+  .menubar div {
+    width: 16px;
+    margin: 3px;
+  }
+  .headerline, .search, .olist + div {
+    display: inline;
+    margin: 0;
+    width: auto;
+    padding: 0;
+  }
+  .search {
+    border: none;
+    background-color: #f0f0f0;
+  }
+  .olist + div ol{
+    padding: 0px;
+  }
+  .smallhide {
+    background-color: red;
+    display: none;
+  }
+  .namecard p {
+    width: 100%;
+  }
+  .logo {
+    font-size: 22px;
+  }
+  section {
+    display: block;
+  }
+  .first-banner .title span:first-child{
+    padding: 0;
+    font-size: 1.8em;
+  }
+  .first-banner .title span:last-child {
+    font-size: 20px;
+    width: 100%;
+    padding: 0;
+    //margin: 0;
+  }
+  .sidebyside, .cards, .threecard, .third-banner, .footer{
+    flex-wrap: wrap;
+  }
+  .sidebyside > div {
+    width: 92%;
+  }
+  .s-card, .t-card {
+    width: 92%;
+  }
+  .firsthead p {
+    width: 97%;
+  }
+  .texts div, .cards div, .five-banner .cards div{
+    width: 100%;
+  }
+  .third-banner div, .six-banner .cards p{
+    width: 100%;
+    margin: 25px;
+  }
+  .four-banner label {
+    font-size: 20px;
+  }
+  .four-banner .bshadow span {
+    display: block;
+  }
+  .footer label{
+    font-size: 12px;
+  }
+  .footer ul li {
+    font-size: 11px;
+  }
+}
