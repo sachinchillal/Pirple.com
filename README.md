@@ -4,11 +4,12 @@
 Assignment on HTML and CSS.
 
 
-
+```
 Course: Frontend Fundamentals
 Started on: May 23, 2020 
 Completed on: June 06, 2020 03:27
 Certification: https://accredible.com/19073813
+```
 
 Project #2 (Final Exam)
   - This is the final project of the class.
